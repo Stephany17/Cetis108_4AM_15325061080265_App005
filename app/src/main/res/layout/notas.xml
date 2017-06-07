@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota1"
+            android:id="@+id/txtNota"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/txtFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha:"
+            android:textColor="#ff0019" />
+    </TableRow>
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="agregar"
+        android:text="AGREGAR"
+        android:layout_below="@+id/txtViewSaludo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp" />
+</TableLayout>
