@@ -18,6 +18,8 @@ public class Archivo {
        this.nombre = nombre;
        this.tipo = tipo;
        this.ruta = ruta;
+       this.fechaCreacion = fechaCreacion;
+       this.fechaModificacion = fechaModificacion;
    }
 
 
