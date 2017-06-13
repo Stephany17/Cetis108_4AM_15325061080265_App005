@@ -20,13 +20,15 @@
             android:text="Fecha:"
             android:textColor="#ff0019" />
     </TableRow>
-    <Button
-        android:id="@+id/btnAgregar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="agregar"
-        android:text="AGREGAR"
-        android:layout_below="@+id/txtViewSaludo"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="48dp" />
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/txtRuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruta:"
+            android:textColor="#ff0019" />
+    </TableRow>
+
 </TableLayout>

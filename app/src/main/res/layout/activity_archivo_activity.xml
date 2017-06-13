@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.cetis108.cetis108_4am_15325061080265_app005.Archivo_activity"
+    android:weightSum="1">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota1"
+            android:id="@+id/txtNota"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/txtFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha:"
+            android:textColor="#ff0019" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/txtRuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruta:"
+            android:textColor="#ff0019" />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:id="@+id/txtTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="texto"
+            android:layout_marginTop="350dp" />
+    </TableRow>
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="guardar"
+        android:text="GUARDAR"
+        android:layout_below="@+id/txtViewSaludo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:layout_weight="0.47" />
+
+</TableLayout>
