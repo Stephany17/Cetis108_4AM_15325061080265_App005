@@ -1,12 +1,14 @@
 package mx.edu.cetis108.cetis108_4am_15325061080265_app005;
 
+import android.support.v7.app.ActionBarActivity;
+
 import java.util.Date;
 
 /**
  * Created by Stephany on 09/06/2017.
  */
 
- public class Contenido {
+ public class Contenido extends ActionBarActivity {
     String nombre;
     String tipo;
     String ruta;
@@ -29,6 +31,7 @@ import java.util.Date;
         this.fecha = null;
         this.texto = "";
     }
+
 
 }
 

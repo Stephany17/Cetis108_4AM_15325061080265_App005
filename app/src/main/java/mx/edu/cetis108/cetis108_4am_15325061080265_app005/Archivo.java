@@ -14,6 +14,7 @@ public class Archivo {
     Date fechaCreacion;
     Date fechaModificacion;
 
+
    public Archivo(String usuario, String nombre, String tipo, String ruta, Date fechaCreacion, Date fechaModificacion) {
        this.usuario = usuario;
        this.nombre = nombre;
@@ -35,6 +36,7 @@ public class Archivo {
         this.fechaCreacion = null;
 
     }
+
 
 }
 

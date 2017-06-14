@@ -4,14 +4,16 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 
-public class Archivo_activity extends AppCompatActivity {
+public class ArchivoActivity extends AppCompatActivity {
+
+    String tipo="";
     Button guardar;
-    String tipo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_main);
+        setContentView(R.layout.activity_archivo);
+
         guardar=(Button)findViewById(R.id.btnGuardar);
         Bundle bundle =  this.getIntent().getExtras();
         tipo = bundle.getString("tipo");
@@ -22,4 +24,3 @@ public class Archivo_activity extends AppCompatActivity {
         }
     }
 }
-

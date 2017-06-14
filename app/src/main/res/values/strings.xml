@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Cetis108_4AM_15325061080265_App005</string>
+    <string name="agregar_nota">Agregar nota</string>
+    <string name="ver_nota">Ver nota</string>
+    <string name="crear">Crear nota</string>
+    <string name="editar">Editar nota</string>
+    <string name="borrar">Borrar nota</string>
+    <string name="borrar_todas_las_notas">Borar todas las notas</string>
+    <string name="salir">Salir</string>
     <string name="action_settings">Settings</string>
 </resources>

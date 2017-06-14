@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.edu.cetis108.cetis108_4am_15325061080265_app005.ArchivoActivity"
+    android:weightSum="1">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:id="@+id/txtNombre"/>
+    </TableRow>
+
+<TableRow>
+          <EditText
+           android:id="@+id/txtTitulo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:text=""
+           android:textColor="#ff0019"/>
+    </TableRow>
+
+
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contenido:"
+                android:id="@+id/txtContenido"/>
+        </TableRow>
+        <TableRow>
+        <EditText
+            android:id="@+id/txtTexto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#ff0019"/>
+    </TableRow>
+
+
+
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Agregar notas"
+        android:text="GUARDAR"
+        android:layout_below="@+id/txtViewSaludo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:layout_weight="0.06" />
+
+
+</TableLayout>
